@@ -9,7 +9,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{3B
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeekShopping.Web", "GeekShopping.Web\GeekShopping.Web.csproj", "{3AD2A791-6659-4476-BE68-114A32088F5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekShopping.ProductAPI", "GeekShopping.ProductAPI\GeekShopping.ProductAPI.csproj", "{C85C3D93-5467-45F7-BF46-80BEEB04E24C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeekShopping.ProductAPI", "GeekShopping.ProductAPI\GeekShopping.ProductAPI.csproj", "{C85C3D93-5467-45F7-BF46-80BEEB04E24C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekShopping.IdentityServer", "GeekShopping.IdentityServer\GeekShopping.IdentityServer.csproj", "{05030BAB-394F-4D3F-927F-4EB3756EC579}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +27,10 @@ Global
 		{C85C3D93-5467-45F7-BF46-80BEEB04E24C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C85C3D93-5467-45F7-BF46-80BEEB04E24C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C85C3D93-5467-45F7-BF46-80BEEB04E24C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05030BAB-394F-4D3F-927F-4EB3756EC579}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05030BAB-394F-4D3F-927F-4EB3756EC579}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05030BAB-394F-4D3F-927F-4EB3756EC579}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05030BAB-394F-4D3F-927F-4EB3756EC579}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{3AD2A791-6659-4476-BE68-114A32088F5A} = {3B23E87E-C084-4DB2-9D68-56FCDCD51CFB}
 		{C85C3D93-5467-45F7-BF46-80BEEB04E24C} = {C1E6BAE0-2AE5-49C7-A596-801D4ED18983}
+		{05030BAB-394F-4D3F-927F-4EB3756EC579} = {C1E6BAE0-2AE5-49C7-A596-801D4ED18983}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {345AE8DC-0282-4793-AC5D-624EB30977F3}
